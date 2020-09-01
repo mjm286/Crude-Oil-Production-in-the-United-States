@@ -1,5 +1,7 @@
-# Crude Oil Production in the United-States
+# Crude Oil Production in the United States
 Crude Oil Production in the United States is monitored and reported by the United States Energy Information Agency (EIA).  The reported data was used to create a dashboard that visualizes and explains current production trends.  
+The Tableu dashboard can be seen at https://public.tableau.com/profile/matthew.m5135#!/vizhome/CrudeOilProductionintheUnitedStates/EIAPRODUCTIONOIL?publish=yes
+
 Features include:
   - automatic update of all values
   - KPIs regarding oil production
@@ -13,7 +15,8 @@ Features include:
   - dynamic parameter actions to view states by PADD
   - stacked line graph to visually compare different production values from states
   
- Python programming was used to extract, transform, and load 
-  
-  
-  https://www.eia.gov/dnav/pet/pet_crd_crpdn_adc_mbblpd_m.htm
+Python programming was used to extract data from the EIA, transform, and load results into Tableau software.  Specifically, crude_production.ipynb reads in the EIA data, removes unwanted date entries, cleans its header descriptions, transforms data by assigning a state and PADD region as categorical data to each date recorded.  This transfrmed dataset as well as EIA data was used in Tableau.
+
+The Tableu dashboard can be seen at https://public.tableau.com/profile/matthew.m5135#!/vizhome/CrudeOilProductionintheUnitedStates/EIAPRODUCTIONOIL?publish=yes
+Visit my LinkedIn page at https://www.linkedin.com/in/matthewjmccarroll/
+The EIA data can be found at  https://www.eia.gov/dnav/pet/pet_crd_crpdn_adc_mbblpd_m.htm
