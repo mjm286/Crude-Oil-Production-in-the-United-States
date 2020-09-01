@@ -15,7 +15,7 @@ Features include:
   - dynamic parameter actions to view states by PADD
   - stacked line graph to visually compare different production values from states
   
-Python programming was used to extract data from the EIA, transform, and load results into Tableau software.  Specifically, crude_production.ipynb reads in the EIA data, removes unwanted date entries, cleans its header descriptions, transforms data by assigning a state and PADD region as categorical data to each date recorded.  This transfrmed dataset as well as EIA data was used in Tableau.
+Python programming was used to extract data from the EIA, transform, and load results into Tableau software.  Specifically, crude_production.ipynb reads in the EIA data, removes unwanted date entries, cleans its header descriptions, transforms data by assigning a state and PADD region as categorical data to each date recorded.  This transfrmed dataset as well as EIA data was used in visualizations.
 
 The Tableu dashboard can be seen at https://public.tableau.com/profile/matthew.m5135#!/vizhome/CrudeOilProductionintheUnitedStates/EIAPRODUCTIONOIL?publish=yes
 Visit my LinkedIn page at https://www.linkedin.com/in/matthewjmccarroll/
